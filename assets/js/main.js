@@ -55,7 +55,7 @@ async function chartData(currency) {
   console.log(currency.serie);
   let data = [];
   let date = [];
-  let arreglo = currency.serie.slice(0, 10)
+  let arreglo = currency.serie.slice(0, 10).reverse();
   arreglo.forEach((element) => {
     data.push(element.valor);
     date.push(element.fecha.substring(0, 10));
