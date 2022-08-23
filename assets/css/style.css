@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Cinzel', serif;
+}
+html,body{
+    /* height: 100vh; */
+    width: 100vw;
+    background-image:url('../img/bck.jpeg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ 
+}
+h1{
+    color: #FFE459;
+    margin: 1em;
+    border-bottom: dotted 1px;
+    border-color: #F43B86;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #270082 ;
+    border-radius: 10px;
+    padding-bottom: 50px;
+    margin: 1em;
+} 
+.card{
+    background-color: #11052C;
+    width: 600px;
+    height: 400px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    
+}
+button{
+    background-color: #F43B86;
+    padding: 1em;
+    border-style: none;
+    border-radius: 5px;
+}
+h5 {
+    padding: 30px;
+    color: white;
+}
+.mC{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+input{
+    height: 30px;
+
+}
+div{
+    padding: 10px;
+}
+#chart {
+    height: 800px;
+    width: 800px;
+}
